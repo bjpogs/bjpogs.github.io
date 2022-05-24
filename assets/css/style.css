@@ -1,7 +1,7 @@
 .green-bg{
-    background-image : linear-gradient(rgba(19,72,25,0.85), rgba(19,72,25,0.85)), url('../img/cvsu-building.jpg');
+    background-image : linear-gradient(rgba(22, 94, 30, 0.534), rgba(19,72,25,0.85)), url('../img/cvsu-building.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: cover;
     background-attachment: fixed;
 }
 
@@ -10,7 +10,8 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    overflow: auto;
+    flex-wrap:wrap;
+    overflow: fixed;
 }
 
 #heroine .row {
@@ -34,4 +35,7 @@
 #heroine .imgcontainer{
     width: 15vh;
     height: 15vh;
+}
+#heroine .dropdown-menu{
+    width : 210px;
 }
