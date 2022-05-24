@@ -6,17 +6,18 @@
 }
 
 #heroine .container {
-    height : 92vh;
+    height : 100vh;
     justify-content: center;
     display: flex;
-  align-items: center;
+    align-items: center;
+    overflow: auto;
 }
 
 #heroine .row {
     display: flex;
     flex-wrap : wrap;
 }
-#heroine .col {
+#heroine .col-2x {
     flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
    The percent can be px. It just represents your minimum starting width.
     */
@@ -26,4 +27,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#heroine .btn{
+    width: 210px;
+}
+#heroine .imgcontainer{
+    width: 15vh;
+    height: 15vh;
 }
