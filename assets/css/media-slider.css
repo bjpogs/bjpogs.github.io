@@ -105,6 +105,9 @@ h2{
   {
       display: block;
   }
+  .slick-initialized{
+      overflow: hidden;
+  }
   .slick-loading .slick-slide
   {
       visibility: hidden;
